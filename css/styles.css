@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 500px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.contenedor-resultado {
+  width: 100%;
+  background: black;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.resultado {
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  padding: 0 25px;
+}
+.botones,
+.botones2 {
+  border: 1px solid black;
+  width: 25%;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.simbolos {
+  background: orange;
+}
+.numeros {
+  background: rgb(155, 155, 155);
+}
+.igual {
+  background: green;
+}
+.clear {
+  background: red;
+}
